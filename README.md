@@ -19,3 +19,6 @@
  </a>
 	
 </p>
+
+
+![T](https://img.shields.io/badge/PyQt-41cd52?style=for-the-badge)
