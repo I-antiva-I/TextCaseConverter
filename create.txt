@@ -1,0 +1,11 @@
+
+pyinstaller main.py --noconsole
+    --add-data "..\Views\IMGs;Views\IMGs"
+    --add-data "..\Views\CSS;Views\CSS"
+    --icon= PATH_TO_ICON
+    --name= "Text Case Converter"
+    --noconfirm
+    --workpath "App/Build"
+    --distpath "App/Dist"
+    --specpath "App"
+    --clean
