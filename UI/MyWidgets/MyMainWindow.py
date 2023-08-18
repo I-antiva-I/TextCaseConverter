@@ -16,7 +16,7 @@ class MyMainWindow(QtWidgets.QMainWindow):
 
         # Main Window properties
         self.setObjectName("MAIN_WINDOW")
-        self.setWindowTitle("Text Converter")
+        self.setWindowTitle("Text Case Converter")
         self.setWindowIcon(QtGui.QIcon("UI/IMGs/Icon_Main.svg"))
         self.resize(500, 500)
 
@@ -28,7 +28,6 @@ class MyMainWindow(QtWidgets.QMainWindow):
 
         self.prepare()
         self.applyCSS()
-        print(self.size())
 
     def applyCSS(self):
         pathToCSS =     "UI/CSS/styles.css"
