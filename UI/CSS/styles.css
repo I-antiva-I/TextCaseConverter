@@ -1,13 +1,11 @@
 /* https://stackoverflow.com/questions/10898399/using-variables-in-qt-stylesheets */
 
-
 MyPanel
 {
     background:                 @color-black-medium;
     border-top:                 none;
     padding:                    4px 4px;
 }
-
 
 MyPanelLabeled
 {
@@ -20,6 +18,7 @@ MyPanelLabeled
     margin-top:                 12px;
     padding:                    12px 6px 6px 6px;
 }
+
 MyPanelLabeled:title
 {
     subcontrol-origin:          border;
@@ -31,7 +30,6 @@ MyPanelLabeled:title
     padding:                    0px 8px;
 }
 
-
 QPushButton
 {
     min-width:                  128px;
@@ -42,34 +40,8 @@ QPushButton
     background:                 @color-black-light;
     border:                     none;
     color:                      @color-white-light;
-
-
-
-    /*
-    # Borders with Gradient
-    border:                     @border-narrow  @color-transparent;
-    border-top-color:           qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0     @color-white-light, stop: 1  @color-gray-light);
-    border-bottom-color:        qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0     @color-gray-light,  stop: 1  @color-white-light);
-    border-left-color:          qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0     @color-white-light, stop: 0.5 @color-black-light);
-    border-right-color:         qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0     @color-gray-light,  stop: 1  @color-white-light);
-
-    border-right-color:         qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0.5   @color-black-light,  stop: 1  @color-white-light);
-    border-bottom-color:        qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0.875 @color-black-light,  stop: 1  @color-white-light);
-
-    #
-    border:                     @border-narrow  @color-black-light;
-    border-top-color:           qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0     @color-white-light, stop: 0.125  @color-black-light);
-    border-left-color:          qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0     @color-white-light, stop: 0.5    @color-black-light);
-
-    border:                     @border-narrow  @color-blue-light;
-    border-top-color:           qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0     @color-white-light, stop: 0.125  @color-blue-light);
-    border-left-color:          qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0     @color-white-light, stop: 0.5    @color-blue-light);
-
-
-    border:                     @border-narrow  @color-white-light;
-    */
-
 }
+
 QPushButton:hover
 {
     background:                 @color-blue-light;
@@ -82,7 +54,6 @@ QPushButton:pressed
     color:                      @color-blue-light;
 }
 
-
 QTextEdit
 {
     background:                 @color-white-light;
@@ -93,3 +64,5 @@ QTextEdit
 
     padding:                    4px 4px;
 }
+
+
