@@ -60,6 +60,7 @@ class MainController:
     def textToTitle(self):
         strings = self.textArea.toPlainText().split(" ")
         title = ""
+        # Words that should not be capitalized
         exceptions = ["as", "at," "by", "for", "in", "of", "off", "on", "per", "to", "up", "via"]
         for string in strings:
             if string.lower() not in exceptions:
